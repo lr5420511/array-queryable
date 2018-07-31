@@ -23,11 +23,11 @@
  
 
 > query().from([1,2,3,4,5],['a','b','c','d','e'],[true,false])
->        .where(cur => cur[2])
->        .groupby(cur => cur[0], cur => cur[1])
->        .select(cur => [cur[0], cur[1].length])
->        .orderby((prev, cur) => cur[0] > prev[0] || cur[1] > prev[1])
->        .execute();
+> .where(cur => cur[2])
+> .groupby(cur => cur[0], cur => cur[1])
+> .select(cur => [cur[0], cur[1].length])
+> .orderby((prev, cur) => cur[0] > prev[0] || cur[1] > prev[1])
+> .execute();
           
 
 传统做法对比：
