@@ -23,7 +23,7 @@
  1. 将会查询第三组数据源中值为true;
  2. 根据第一组数据源和第二组数据源的值分组;
  3. 并把结果映射为[groupName, groups.length]结构;
- 4. 然后对groupName和groups.length排序的结果;
+ 4. 然后对groupName和groups.length降序的结果;
  5. 最终输出 [[5,5], [4,5], [3,5], [2,5], [1,5]]。
  
  
