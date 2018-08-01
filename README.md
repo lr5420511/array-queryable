@@ -20,6 +20,7 @@
  4. 然后对groupName和groups.length降序的结果;
  5. 最终输出 [[5,5], [4,5], [3,5], [2,5], [1,5]]。
  
+ >
  > query().from([1,2,3,4,5],['a','b','c','d','e'],[true,false])
  >      
  >        .where(cur => cur[2])
@@ -31,6 +32,7 @@
  >        .orderby((prev, cur) => cur[0] > prev[0] || cur[1] > prev[1])
  >
  >        .execute();
+ >
           
 
 传统做法对比：
