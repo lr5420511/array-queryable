@@ -1,8 +1,8 @@
 {
     "name": "array-queryable",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "一个链式调用，用于处理集合的工具。并且支持插件（新的命令和功能）的注入。对于处理复杂的集合操作非常有用，大家一起来丰富它的功能吧！\r 本工具对于使用orm框架查询返回的实体集合，再进行特定场景下的业务处理，将非常有用。",
-    "main": "index.js",
+    "main": "query-index.js",
     "directories": {
         "lib": "lib"
     },
@@ -11,7 +11,7 @@
     },
     "author": "lr5420511",
     "license": "ISC",
-    "keywords": ["array", "query", "plugins", "extend"],
+    "keywords": ["array", "query", "plugins", "extend", "linq"],
     "repository": {
         "type": "git",
         "url": "https://github.com/lr5420511/array-queryable.git"

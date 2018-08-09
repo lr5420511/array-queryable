@@ -25,8 +25,9 @@
 ------
 
 #### 基本用法: ####
+       //安装 npm install array-queryable --save-dev
   
-       const query = require('query-index');
+       const query = require('array-queryable');
        
        //初始化一个查询活动
        query();
